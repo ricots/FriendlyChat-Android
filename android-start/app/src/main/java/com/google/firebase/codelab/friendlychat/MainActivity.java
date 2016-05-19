@@ -97,6 +97,8 @@ public class MainActivity extends AppCompatActivity
     private EditText mMessageEditText;
 
     // Firebase instance variables
+    private FirebaseAuth mFirebaseAuth;
+    private FirebaseUser mFirebaseUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
